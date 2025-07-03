@@ -1,0 +1,244 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.fe-container {
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  background: linear-gradient(135deg, #fffbe6 0%, #f7e7b6 100%);
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.fe-header {
+  padding-top: 2rem;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #f7e7b6;
+  margin-bottom: 1.5rem;
+}
+
+.fe-header h1 {
+  font-size: 3rem;
+  color: #bfa14a;
+  margin-bottom: 0.5rem;
+}
+
+.fe-tagline {
+  font-size: 1.5rem;
+  color: #e2c97a;
+  margin-bottom: 2rem;
+  letter-spacing: 0.1em;
+}
+
+.fe-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.fe-hero-img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 24px 0 #b497d633;
+  margin-bottom: 2rem;
+}
+
+.fe-hero-content {
+  max-width: 500px;
+  text-align: center;
+}
+
+.fe-hero-content h2 {
+  font-size: 2rem;
+  color: #bfa14a;
+  margin-bottom: 1rem;
+}
+
+.fe-hero-content p {
+  font-size: 1.1rem;
+  color: #7a6a2f;
+  margin-bottom: 2rem;
+}
+
+.fe-shop-btn {
+  background: linear-gradient(90deg, #e2c97a 0%, #bfa14a 100%);
+  color: #fff;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.75rem 2.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.fe-shop-btn:hover {
+  background: linear-gradient(90deg, #bfa14a 0%, #e2c97a 100%);
+}
+
+.fe-section {
+  background: #fffdfa;
+  border-radius: 1.25rem;
+  box-shadow: 0 2px 12px 0 #e2c97a1a;
+  margin: 2rem auto;
+  padding: 2rem 1.5rem;
+  max-width: 700px;
+  text-align: left;
+}
+
+.fe-section h3 {
+  color: #bfa14a;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.fe-benefits ul,
+.fe-usage ul {
+  list-style: disc inside;
+  color: #7a6a2f;
+  margin: 0;
+  padding-left: 1.2em;
+}
+
+.fe-testimonials {
+  background: #f7ecd1;
+}
+
+.fe-testimonial-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.fe-testimonial-list blockquote {
+  background: #fffdfa;
+  border-left: 4px solid #e2c97a;
+  margin: 0;
+  padding: 1rem 1.5rem;
+  font-style: italic;
+  color: #7a6a2f;
+  border-radius: 0.5rem;
+}
+
+.fe-testimonial-list span {
+  display: block;
+  margin-top: 0.5rem;
+  color: #bfa14a;
+  font-size: 0.95rem;
+}
+
+.fe-about p {
+  color: #7a6a2f;
+  margin: 0;
+}
+
+.fe-footer {
+  margin-top: 3rem;
+  padding: 1.5rem 0 0.5rem 0;
+  text-align: center;
+  color: #e2c97a;
+  font-size: 1rem;
+  border-top: 1px solid #f7e7b6;
+}
+
+.fe-section-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 2rem 0 1rem 0;
+}
+
+.fe-section-nav-btn {
+  background: #f7ecd1;
+  color: #bfa14a;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.6rem 1.8rem;
+  font-size: 1.05rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px 0 #e2c97a1a;
+}
+
+.fe-section-nav-btn.active,
+.fe-section-nav-btn:hover {
+  background: linear-gradient(90deg, #e2c97a 0%, #bfa14a 100%);
+  color: #fff;
+  box-shadow: 0 4px 16px 0 #e2c97a33;
+}
+
+.fe-main-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 1.5rem 0 0.5rem 0;
+}
+
+.fe-main-nav-link {
+  color: #bfa14a;
+  font-size: 1.15rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+.fe-main-nav-link:hover,
+.fe-main-nav-link.active {
+  background: linear-gradient(90deg, #e2c97a 0%, #bfa14a 100%);
+  color: #fff;
+}
+
+.fe-lavender-title {
+  color: #a678d3 !important;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
